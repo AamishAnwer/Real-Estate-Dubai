@@ -26,7 +26,7 @@ export default function Home() {
   const callLink = `tel:${whatsappNumber}`;
   const handleChatbotOpen = () => {
     console.log("Chatbot Opened!");
-    // Here you can add logic to open or interact with your chatbot
+ 
   };
 
   return (
@@ -85,7 +85,7 @@ export default function Home() {
       >
         <img
           className=" icon-animation"
-          src="https://res.cloudinary.com/dcpte972l/image/upload/v1709126968/robot_vp5tse.png" // Replace with your chatbot icon URL
+          src="https://res.cloudinary.com/dcpte972l/image/upload/v1709126968/robot_vp5tse.png" 
           alt="Chatbot"
           style={{ width: "50px", height: "50px" }}
         />

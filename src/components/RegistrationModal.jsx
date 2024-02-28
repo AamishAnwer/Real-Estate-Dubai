@@ -46,7 +46,7 @@ const RegistrationModal = ({ closeModal }) => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="mt-1 block w-full border-2 border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4"
+              className="mt-1 block w-full border-2 text-black border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4"
             />
           </div>
           <div className="mb-4">
@@ -63,7 +63,7 @@ const RegistrationModal = ({ closeModal }) => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="mt-1 block w-full border-2 border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4"
+              className="mt-1 block w-full text-black border-2 border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4"
             />
           </div>
           <div className="mb-4">
@@ -80,13 +80,13 @@ const RegistrationModal = ({ closeModal }) => {
               name="mobile"
               value={formData.mobile}
               onChange={handleChange}
-              className="mt-1 block w-full border-2 border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4"
+              className="mt-1 block w-full text-black border-2 border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4"
             />
           </div>
           <div className="mb-4">
             <label
               htmlFor="language"
-              className="block text-sm font-semibold text-gray-700"
+              className="block text-sm font-semibold  text-black"
             >
               Preferred Language
             </label>

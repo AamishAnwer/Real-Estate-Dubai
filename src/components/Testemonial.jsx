@@ -3,26 +3,26 @@ import React from "react";
 const Testemonial = () => {
   return (
     <div>
-      <section class="bg-black">
-        <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <h2 class="text-center text-4xl font-bold tracking-tight text-black sm:text-5xl">
+      <section className="bg-black">
+        <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          <h2 className="text-center text-4xl font-bold tracking-tight text-black sm:text-5xl">
             Read trusted reviews from our customers
           </h2>
 
-          <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
-              <div class="flex items-center gap-4">
+          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+              <div className="flex items-center gap-4">
                 <img
                   alt=""
                   src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                  class="size-14 rounded-full object-cover"
+                  className="size-14 rounded-full object-cover"
                 />
 
                 <div>
-                  <div class="flex justify-center gap-0.5 text-yellow-500">
+                  <div className="flex justify-center gap-0.5 text-yellow-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -30,7 +30,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -38,7 +38,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -46,7 +46,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -54,7 +54,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -62,13 +62,13 @@ const Testemonial = () => {
                     </svg>
                   </div>
 
-                  <p class="mt-0.5 text-lg font-medium text-black">
+                  <p className="mt-0.5 text-lg font-medium text-black">
                     Mohamed
                   </p>
                 </div>
               </div>
 
-              <p class="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-700">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
@@ -76,19 +76,19 @@ const Testemonial = () => {
               </p>
             </blockquote>
 
-            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
-              <div class="flex items-center gap-4">
+            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+              <div className="flex items-center gap-4">
                 <img
                   alt=""
                   src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                  class="size-14 rounded-full object-cover"
+                  className="size-14 rounded-full object-cover"
                 />
 
                 <div>
-                  <div class="flex justify-center gap-0.5 text-yellow-500">
+                  <div className="flex justify-center gap-0.5 text-yellow-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -96,7 +96,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -104,7 +104,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -112,7 +112,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -120,7 +120,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -128,13 +128,13 @@ const Testemonial = () => {
                     </svg>
                   </div>
 
-                  <p class="mt-0.5 text-lg font-medium text-black">
+                  <p className="mt-0.5 text-lg font-medium text-black">
                     Jason
                   </p>
                 </div>
               </div>
 
-              <p class="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-700">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
@@ -142,19 +142,19 @@ const Testemonial = () => {
               </p>
             </blockquote>
 
-            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
-              <div class="flex items-center gap-4">
+            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+              <div className="flex items-center gap-4">
                 <img
                   alt=""
                   src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-                  class="size-14 rounded-full object-cover"
+                  className="size-14 rounded-full object-cover"
                 />
 
                 <div>
-                  <div class="flex justify-center gap-0.5 text-yellow-500">
+                  <div className="flex justify-center gap-0.5 text-yellow-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -162,7 +162,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -170,7 +170,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -178,7 +178,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -186,7 +186,7 @@ const Testemonial = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -194,13 +194,13 @@ const Testemonial = () => {
                     </svg>
                   </div>
 
-                  <p class="mt-0.5 text-lg font-medium text-black">
+                  <p className="mt-0.5 text-lg font-medium text-black">
                     Aamish
                   </p>
                 </div>
               </div>
 
-              <p class="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-700">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                 sit rerum incidunt, a consequuntur recusandae ab saepe illo est
                 quia obcaecati neque quibusdam eius accusamus error officiis
