@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useRouter } from "next/router"; // Importing useRouter from next/router
 
 const RegistrationModal = ({ closeModal }) => {
+  const router = useRouter(); // Initialize useRouter
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -8,6 +10,8 @@ const RegistrationModal = ({ closeModal }) => {
     language: "English",
     terms: false,
   });
+
+  const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -20,6 +24,10 @@ const RegistrationModal = ({ closeModal }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here
+  };
+
+  const handleHomeClick = () => {
+    router.push("/"); // Navigate to the home route
   };
 
   return (
@@ -127,6 +135,17 @@ const RegistrationModal = ({ closeModal }) => {
             </button>
           </div>
         </form>
+        {submitted && (
+          <div className="mt-4 text-center">
+            <p>Form submitted, Thank you!</p>
+            <button
+              onClick={handleHomeClick}
+              className="mt-4 w-full px-6 py-3 text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-sm font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-150"
+            >
+              Home
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
