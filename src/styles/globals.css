@@ -160,3 +160,22 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1s; /* Adjust the speed of the animation */
+  animation-fill-mode: both;
+  animation-delay: 0.5s; /* Delay before the animation starts */
+}
