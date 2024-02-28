@@ -31,3 +31,132 @@ body {
     text-wrap: balance;
   }
 }
+
+.whatsapp-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1); /* Increase the icon size to 110% on hover */
+}
+
+.icon-animation {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-animation:hover {
+  transform: scale(1.1); /* Increase the icon size to 110% on hover */
+}
+
+.animated-button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.animated-button:hover {
+  background-color: #ffffff; /* Change to your desired hover background color */
+  color: #000000; /* Change to your desired hover text color */
+  border-color: transparent; /* Optional: if you want to change the border color on hover */
+}
+
+.gallery-container {
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gallery-button {
+  background-color: #ffffff;
+  border: 2px solid #f5df4d;
+  color: #f5df4d;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.gallery-button:hover {
+  background-color: #f5df4d;
+  color: #ffffff;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.image-item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
+
+.gallery-container {
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gallery-button {
+  background-color: #ffffff;
+  border: 2px solid #f5df4d;
+  color: #f5df4d;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.gallery-button:hover {
+  background-color: #f5df4d;
+  color: #ffffff;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.image-item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
