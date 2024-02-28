@@ -95,17 +95,11 @@ const RegistrationModal = ({ closeModal }) => {
               name="language"
               value={formData.language}
               onChange={handleChange}
-              className="mt-1 block w-full border-2 border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4"
+              className="mt-1 block w-full border-2 border-yellow-500 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 py-3 px-4 text-black"
             >
-              <option className="text-black" value="English">
-                English
-              </option>
-              <option className="text-black" value="Arabic">
-                Arabic
-              </option>
-              <option className="text-black" value="Russian">
-                Russian
-              </option>
+              <option value="English">English</option>
+              <option value="Arabic">Arabic</option>
+              <option value="Russian">Russian</option>
             </select>
           </div>
           <div className="mb-4 flex items-center">

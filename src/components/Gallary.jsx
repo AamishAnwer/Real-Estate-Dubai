@@ -19,7 +19,7 @@ const Gallery = () => {
       <div className="button-container">
         <button className="gallery-button">Our Gallery</button>
       </div>
-      <div className="image-grid">
+      <div className="image-grid cursor-pointer">
         {images.map((image, index) => (
           <div key={index} className="image-item">
             <img
