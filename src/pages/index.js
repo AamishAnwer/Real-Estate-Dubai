@@ -8,6 +8,7 @@ import Gallary from "@/components/Gallary";
 import SignUp from "@/components/SignUp";
 import Testemonial from "@/components/Testemonial";
 import GetaQuote from "@/components/GetaQuote";
+import { Analytics } from "@vercel/analytics/react";
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -26,11 +27,11 @@ export default function Home() {
   const callLink = `tel:${whatsappNumber}`;
   const handleChatbotOpen = () => {
     console.log("Chatbot Opened!");
- 
   };
 
   return (
     <div>
+      <Analytics />
       <Hero />
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <Form />
@@ -85,7 +86,7 @@ export default function Home() {
       >
         <img
           className=" icon-animation"
-          src="https://res.cloudinary.com/dcpte972l/image/upload/v1709126968/robot_vp5tse.png" 
+          src="https://res.cloudinary.com/dcpte972l/image/upload/v1709126968/robot_vp5tse.png"
           alt="Chatbot"
           style={{ width: "50px", height: "50px" }}
         />
