@@ -28,6 +28,7 @@ const Hero = () => {
                 href="https://res.cloudinary.com/dcpte972l/image/upload/v1709124764/samplepdf_fp3drr.pdf"
                 download="RealEstateMasters_Brochure.pdf"
                 className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50 animated-button"
+                target="_blank"
               >
                 Download Brochure
               </a>
