@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import Form from "@/components/Form";
+// import Form from "@/components/Form";
 import { useState, useEffect } from "react";
 import Modal from "@/components/Modal";
 import Footer from "@/components/Footer";
@@ -34,7 +34,7 @@ export default function Home() {
       <Analytics />
       <Hero />
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        <Form />
+        {/* <Form /> */}
       </Modal>
       {/* Call Icon */}
       <a
